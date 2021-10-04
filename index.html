@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <style>
+        @Media (max-width:500x) {
+        body {
+            flex-wrap: wrap;
+            }
+        }
+
+        header {
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            height: 75px;
+            padding: 20px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            opacity: 0.8;
+        }
+    </style>
+
+        <div src="background">
+            <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2017%2F08%2FOi-Polloi-manchester-01.jpg?w=1600&cbr=1&q=90&fit=max" 
+            class="stretch"
+            alt="background-image"/>
+        </div>
+
+
+    <header id="header">
+        <img 
+            src="https://static.vecteezy.com/system/resources/previews/002/963/223/non_2x/ls-logo-monogram-with-pillar-shape-designs-template-free-vector.jpg"
+            alt="LS-logo"
+            border="0"
+            id="header-img"
+            height="100px"
+            width="300px"
+        >
+        
+        <nav id="nav-bar">
+            <h1> <u> Le-Schön </u> &nbsp; &nbsp; &nbsp;
+                <a class="nav-link" href="#products"> Products </a>  &nbsp; &nbsp; &nbsp;
+                <a class="nav-link" href="#shop"> Shop </a>  &nbsp; &nbsp; &nbsp;
+                <a class="nav-link" href="#about-us"> About Us </a>  &nbsp; &nbsp; &nbsp;
+            </h1>
+        </nav>
+    </header>
+
+    <body>
+
+        <section id="products">
+            <div id="product-video" align="left" style="width:100%; overflow:hidden">
+                <iframe
+                    id="video"
+                    width="560"
+                    height="315"
+                    align="right"
+                    src="https://www.youtube.com/embed/JE4VdrKf40s"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen> </iframe>
+                
+                <h3>The most fashionable clothing brand in the world.</h3>
+            </div>
+        </section>
+
+        <div id="shop-text" style="width: 100%; height: auto; overflow: hidden;">
+            <img src= https://i.pinimg.com/originals/d2/c4/12/d2c412d51e0ee5e3757c6c21ff63693a.jpg alt="Le-Schön Shop" width=100%;>
+        </div>
+
+        <section id="shop">
+            <h2>Phone App</h2>
+            <h2>Affiliates</h2>
+            <h2>Other Links</h2>
+        </section>
+
+        <section id="about-us">
+        </section>
+
+    </body>
+
+    <footer>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+                id="text"
+                type="text"
+                name="text"
+                placeholder="Have a question?"
+                class="text"
+                required>
+            </input>
+    <br>
+            <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="What email would you like to be responded to?"
+                class="email"
+                required>
+            </input>
+    <br>
+            <input
+                id="submit"
+                type="submit"
+                value="Ask Now"
+                class="submit">
+        </form>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+</html>
